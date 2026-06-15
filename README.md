@@ -401,7 +401,7 @@ _Serverless Kubernetes with EKS Fargate and Application Load Balancer_
 
 <table border="1" cellpadding="15" cellspacing="0" style="border-collapse: collapse; width: 100%; border: 2px solid #7B42BC;">
 <tr>
-<td width="30%" style="border: 2px solid #7B42BC; padding: 20px; vertical-align: top;">
+<td width="100%" style="border: 2px solid #7B42BC; padding: 20px; vertical-align: top;">
 
 **[terraform-aws-reference-architecture](https://github.com/darshan-engineering/terraform-aws-reference-architecture)**
 
@@ -420,7 +420,9 @@ _Production-grade, highly available web stack = multi-AZ compute, managed databa
 - SNS = ALARM + OK email notifications
 
 </td>
-<td width="60%" style="border: 2px solid #7B42BC; padding: 15px; vertical-align: middle; text-align: left;">
+</tr>
+<tr>
+<td width="100%" style="border: 2px solid #7B42BC; padding: 20px;">
 
 ```bash
 Internet
