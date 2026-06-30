@@ -26,8 +26,6 @@ _A comprehensive collection of differently architectured AWS cloud solutions_
 
 This repository serves as the central portfolio and showcase for AWS cloud engineering projects developed under the Darshan Engineering organization.
 
-🔗 Organization: https://github.com/darshan-engineering
-
 Each project is maintained in its own dedicated repository and includes:
 
 - Architecture diagrams
@@ -40,20 +38,22 @@ Each project is maintained in its own dedicated repository and includes:
 
 ## 🗺️ Quick Navigation
 
-| Project                                                                                        | Level           | Core Services                 | Use Case                 |
-| ---------------------------------------------------------------------------------------------- | --------------- | ----------------------------- | ------------------------ |
-| [URL Shortener](https://github.com/darshan-engineering/aws-serverless-url-shortener)           | 🟢 Beginner     | Lambda, API Gateway, DynamoDB | Event-driven serverless  |
-| [Secure Static Hosting](https://github.com/darshan-engineering/aws-secure-static-hosting)      | 🟢 Beginner     | S3, CloudFront, WAF           | CDN + edge security      |
-| [AI Summarizer](https://github.com/darshan-engineering/aws-ai-document-summarizer)             | 🟠 Intermediate | Bedrock, Textract, Lambda     | AI document processing   |
-| [Order Pipeline](https://github.com/darshan-engineering/aws-event-driven-order-pipeline)       | 🟠 Intermediate | SNS, SQS, Lambda, SES         | Async messaging + DLQ    |
-| [3-Tier App](https://github.com/darshan-engineering/aws-3tier-ha-app)                          | 🟠 Intermediate | ALB, Auto Scaling, EC2        | HA web application       |
-| [ECS CI/CD](https://github.com/darshan-engineering/aws-ecs-cicd-pipeline)                      | 🟠 Intermediate | ECS, CodePipeline             | Container automation     |
-| [AWS Terraform GitHub Actions](https://github.com/darshan-engineering/aws-terraform-github-actions-deploy)   | 🟠 Intermediate | Terraform, OIDC               | IaC CI/CD                |
-| [Auth API](https://github.com/darshan-engineering/aws-serverless-auth-api)                     | 🔴 Advanced     | Cognito, Lambda, DynamoDB     | Multi-tenant auth        |
-| [Streaming Dashboard](https://github.com/darshan-engineering/aws-realtime-streaming-dashboard) | 🔴 Advanced     | Kinesis, WebSocket, Lambda    | Real-time data streaming |
-| [Drift Detection](https://github.com/darshan-engineering/aws-infra-drift-detection)            | 🔴 Advanced     | Config, EventBridge, Lambda   | Compliance automation    |
-| [EKS Fargate](https://github.com/darshan-engineering/aws-eks-fargate-deployment)               | 🔴 Advanced     | EKS, Fargate, ALB             | Serverless Kubernetes    |
-| [Terraform AWS Reference Architecture](https://github.com/darshan-engineering/terraform-aws-reference-architecture) | 🔴 Advanced    | ALB, ASG, RDS, WAF, EFS       | Production reference platform |
+| Project                                                                                                | Level           | Core Services                 | Use Case                      |
+| ------------------------------------------------------------------------------------------------------ | --------------- | ----------------------------- | ----------------------------- |
+| [URL Shortener](https://github.com/atkaridarshan04/aws-serverless-url-shortener)                       | 🟢 Beginner     | Lambda, API Gateway, DynamoDB | Event-driven serverless       |
+| [Secure Static Hosting](https://github.com/atkaridarshan04/aws-secure-static-hosting)                  | 🟢 Beginner     | S3, CloudFront, WAF           | CDN + edge security           |
+| [AI Summarizer](https://github.com/atkaridarshan04/aws-ai-document-summarizer)                         | 🟠 Intermediate | Bedrock, Textract, Lambda     | AI document processing        |
+| [Order Pipeline](https://github.com/atkaridarshan04/aws-event-driven-order-pipeline)                   | 🟠 Intermediate | SNS, SQS, Lambda, SES         | Async messaging + DLQ         |
+| [3-Tier App](https://github.com/atkaridarshan04/aws-3tier-ha-app)                                      | 🟠 Intermediate | ALB, Auto Scaling, EC2        | HA web application            |
+| [ECS CI/CD](https://github.com/atkaridarshan04/aws-ecs-cicd-pipeline)                                  | 🟠 Intermediate | ECS, CodePipeline             | Container automation          |
+| [AWS Terraform GitHub Actions](https://github.com/atkaridarshan04/aws-terraform-github-actions-deploy) | 🟠 Intermediate | Terraform, OIDC               | IaC CI/CD                     |
+| [Auth API](https://github.com/atkaridarshan04/aws-serverless-auth-api)                                 | 🔴 Advanced     | Cognito, Lambda, DynamoDB     | Multi-tenant auth             |
+| [Streaming Dashboard](https://github.com/atkaridarshan04/aws-realtime-streaming-dashboard)             | 🔴 Advanced     | Kinesis, WebSocket, Lambda    | Real-time data streaming      |
+| [Drift Detection](https://github.com/atkaridarshan04/aws-infra-drift-detection)                        | 🔴 Advanced     | Config, EventBridge, Lambda   | Compliance automation         |
+| [EKS Fargate](https://github.com/atkaridarshan04/aws-eks-fargate-deployment)                           | 🔴 Advanced     | EKS, Fargate, ALB             | Serverless Kubernetes         |
+| [Terraform AWS EC2 platform](https://github.com/atkaridarshan04/terraform-aws-ec2-platform)  | 🔴 Advanced     | ALB, ASG, RDS, WAF, EFS       | Production reference platform |
+| [Terraform AWS Container Platform](https://github.com/atkaridarshan04/terraform-aws-container-platform)  | 🔴 Advanced     | ECS, Fargate, ALB, ECR        | Production container platform |
+| [Terraform AWS Kubernetes Platform](https://github.com/atkaridarshan04/terraform-aws-kubernetes-platform) | 🔴 Advanced     | EKS, Gateway API, Envoy       | Production Kubernetes platform |
 
 ---
 
@@ -71,7 +71,7 @@ Projects are grouped by category and ordered from foundational to advanced withi
 <tr>
 <td width="30%" style="border: 2px solid #FF6B35; padding: 20px; vertical-align: top;">
 
-**[serverless-url-shortener](https://github.com/darshan-engineering/aws-serverless-url-shortener)**
+**[serverless-url-shortener](https://github.com/atkaridarshan04/aws-serverless-url-shortener)**
 
 ![Beginner](https://img.shields.io/badge/Beginner-4CAF50?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -100,7 +100,7 @@ _Event-driven serverless application with API Gateway and Lambda_
 <tr>
 <td width="30%" style="border: 2px solid #7B42BC; padding: 20px; vertical-align: top;">
 
-**[serverless-auth-api](https://github.com/darshan-engineering/aws-serverless-auth-api)**
+**[serverless-auth-api](https://github.com/atkaridarshan04/aws-serverless-auth-api)**
 
 ![Advanced](https://img.shields.io/badge/Advanced-F44336?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -129,7 +129,7 @@ _JWT-based authentication and tenant-isolated data access using Cognito, API Gat
 <tr>
 <td width="30%" style="border: 2px solid #E8A838; padding: 20px; vertical-align: top;">
 
-**[event-driven-order-pipeline](https://github.com/darshan-engineering/aws-event-driven-order-pipeline)**
+**[event-driven-order-pipeline](https://github.com/atkaridarshan04/aws-event-driven-order-pipeline)**
 
 ![Intermediate](https://img.shields.io/badge/Intermediate-FF9800?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -159,7 +159,7 @@ _Decoupled, resilient order processing system using SNS fan-out, SQS buffering, 
 <tr>
 <td width="30%" style="border: 2px solid #00BCD4; padding: 20px; vertical-align: top;">
 
-**[realtime-streaming-dashboard](https://github.com/darshan-engineering/aws-realtime-streaming-dashboard)**
+**[realtime-streaming-dashboard](https://github.com/atkaridarshan04/aws-realtime-streaming-dashboard)**
 
 ![Advanced](https://img.shields.io/badge/Advanced-F44336?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -193,7 +193,7 @@ _Live kitchen order display using Kinesis Data Streams, Lambda, DynamoDB, and We
 <tr>
 <td width="30%" style="border: 2px solid #4A90E2; padding: 20px; vertical-align: top;">
 
-**[secure-static-hosting](https://github.com/darshan-engineering/aws-secure-static-hosting)**
+**[secure-static-hosting](https://github.com/atkaridarshan04/aws-secure-static-hosting)**
 
 ![Beginner](https://img.shields.io/badge/Beginner-4CAF50?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -222,7 +222,7 @@ _Private S3 bucket with CloudFront CDN and WAF protection_
 <tr>
 <td width="30%" style="border: 2px solid #FF9900; padding: 20px; vertical-align: top;">
 
-**[3tier-ha-app](https://github.com/darshan-engineering/aws-3tier-ha-app)**
+**[3tier-ha-app](https://github.com/atkaridarshan04/aws-3tier-ha-app)**
 
 ![Intermediate](https://img.shields.io/badge/Intermediate-FF9800?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -250,7 +250,7 @@ _Production-style 3-tier web application with Auto Scaling and Load Balancing_
 <tr>
 <td width="30%" style="border: 2px solid #FF5252; padding: 20px; vertical-align: top;">
 
-**[infra-drift-detection](https://github.com/darshan-engineering/aws-infra-drift-detection)**
+**[infra-drift-detection](https://github.com/atkaridarshan04/aws-infra-drift-detection)**
 
 ![Advanced](https://img.shields.io/badge/Advanced-F44336?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -284,7 +284,7 @@ _Continuous compliance monitoring with automatic remediation using AWS Config, E
 <tr>
 <td width="30%" style="border: 2px solid #FF9900; padding: 20px; vertical-align: top;">
 
-**[ai-document-summarizer](https://github.com/darshan-engineering/aws-ai-document-summarizer)**
+**[ai-document-summarizer](https://github.com/atkaridarshan04/aws-ai-document-summarizer)**
 
 ![Intermediate](https://img.shields.io/badge/Intermediate-FF9800?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -317,7 +317,7 @@ _Event-driven document processing pipeline using S3 triggers, Textract, and Amaz
 <tr>
 <td width="30%" style="border: 2px solid #D24939; padding: 20px; vertical-align: top;">
 
-**[ecs-cicd-pipeline](https://github.com/darshan-engineering/aws-ecs-cicd-pipeline)**
+**[ecs-cicd-pipeline](https://github.com/atkaridarshan04/aws-ecs-cicd-pipeline)**
 
 ![Intermediate](https://img.shields.io/badge/Intermediate-FF9800?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -344,7 +344,7 @@ _Automated container deployment with ECS and CodePipeline_
 <tr>
 <td width="30%" style="border: 2px solid #28A745; padding: 20px; vertical-align: top;">
 
-**[terraform-github-actions-deploy](https://github.com/darshan-engineering/aws-terraform-github-actions-deploy)**
+**[terraform-github-actions-deploy](https://github.com/atkaridarshan04/aws-terraform-github-actions-deploy)**
 
 ![Intermediate](https://img.shields.io/badge/Intermediate-FF9800?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -354,8 +354,6 @@ _Complete CI/CD automation with Terraform, GitHub Actions, and OIDC_
 - OIDC authentication (no long-lived credentials)
 - Automated infrastructure deployment
 - Application CI/CD pipelines
-
-
 
 </td>
 <td width="60%" style="border: 2px solid #28A745; padding: 15px; vertical-align: middle; text-align: center;">
@@ -374,7 +372,7 @@ _Complete CI/CD automation with Terraform, GitHub Actions, and OIDC_
 <tr>
 <td width="30%" style="border: 2px solid #326CE5; padding: 20px; vertical-align: top;">
 
-**[eks-fargate-deployment](https://github.com/darshan-engineering/aws-eks-fargate-deployment)**
+**[eks-fargate-deployment](https://github.com/atkaridarshan04/aws-eks-fargate-deployment)**
 
 ![Advanced](https://img.shields.io/badge/Advanced-F44336?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -396,14 +394,13 @@ _Serverless Kubernetes with EKS Fargate and Application Load Balancer_
 
 ---
 
-
-### 🏗️ **AWS Reference Architecture**
+### 🏗️ **AWS Reference Architectures**
 
 <table border="1" cellpadding="15" cellspacing="0" style="border-collapse: collapse; width: 100%; border: 2px solid #7B42BC;">
 <tr>
 <td width="100%" style="border: 2px solid #7B42BC; padding: 20px; vertical-align: top;">
 
-**[terraform-aws-reference-architecture](https://github.com/darshan-engineering/terraform-aws-reference-architecture)**
+**[terraform-aws-ec2-platform](https://github.com/atkaridarshan04/terraform-aws-ec2-platform)**
 
 ![Advanced](https://img.shields.io/badge/Advanced-F44336?style=flat-square) ![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
 
@@ -457,19 +454,114 @@ Internet
 </table>
 
 
+### 🚢 **AWS ECS Container Platform**
+
+<table border="1" cellpadding="15" cellspacing="0" style="border-collapse: collapse; width: 100%; border: 2px solid #FF9900;">
+<tr>
+<td width="35%" style="border: 2px solid #FF9900; padding: 20px; vertical-align: top;">
+
+**[terraform-aws-container-platform](https://github.com/atkaridarshan04/terraform-aws-container-platform)**
+
+![Advanced](https://img.shields.io/badge/Advanced-F44336?style=flat-square)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
+
+_Production-ready AWS container platform using ECS Fargate with networking, security, auto scaling, managed database, and HTTPS._
+
+- ECS Fargate container platform
+- ALB with ACM TLS
+- WAF managed protection
+- ECR private registry
+- RDS MySQL + Secrets Manager
+- Route53 DNS automation
+- ECS Service Auto Scaling
+- Terraform modular architecture
+
+</td>
+</tr>
+<tr>
+<td width="100%" style="border: 2px solid #FF9900; padding: 20px;">
+
+```text
+Internet
+   │
+Route53
+   │
+WAF
+   │
+ALB (HTTPS)
+   │
+ECS Fargate Service
+   ├── ECR
+   ├── Secrets Manager
+   ├── RDS MySQL
+   └── DynamoDB
+```
+
+</td>
+</tr>
+</table>
+
+
+### ☸️ **AWS Kubernetes Platform**
+
+<table border="1" cellpadding="15" cellspacing="0" style="border-collapse: collapse; width: 100%; border: 2px solid #326CE5;">
+<tr>
+<td width="35%" style="border: 2px solid #326CE5; padding: 20px; vertical-align: top;">
+
+**[terraform-aws-kubernetes-platform](https://github.com/atkaridarshan04/terraform-aws-kubernetes-platform)**
+
+![Advanced](https://img.shields.io/badge/Advanced-F44336?style=flat-square)
+![Terraform](https://img.shields.io/badge/Terraform-7B42BC?logo=terraform&logoColor=white&style=flat-square)
+
+_Production-ready Kubernetes platform on Amazon EKS with managed node groups, Gateway API, Pod Identity, cert-manager, and AWS-native networking._
+
+- Amazon EKS managed cluster
+- Managed Node Groups
+- Gateway API + Envoy Gateway
+- cert-manager + Let's Encrypt
+- EKS Pod Identity
+- EBS CSI Driver
+- Multi-AZ VPC architecture
+- Terraform modular platform
+
+</td>
+</tr>
+<tr>
+<td width="100%" style="border: 2px solid #326CE5; padding: 20px;">
+
+```bash
+Internet
+   │
+Network Load Balancer
+   │
+Envoy Gateway
+   │
+Gateway API
+   │
+Kubernetes Services
+   │
+Pods
+   │
+Amazon EKS
+```
+
+</td>
+</tr>
+</table>
+
 ---
 
 ## 🛠️ Skills Demonstrated
 
-| Domain | Skills |
-| --------------------------------- | ----------------------------------------------------------------------- |
-| **Cloud Architecture** | High Availability, Event-Driven Systems, Serverless Design, Distributed Systems |
-| **Infrastructure as Code** | Terraform, State Management, Modular Design |
-| **DevOps & CI/CD** | GitHub Actions, CodePipeline, Containerization, OIDC |
-| **Security & Identity** | IAM, Cognito, WAF, Multi-Tenant Architectures |
-| **Containers & Kubernetes** | ECS, EKS, Fargate, ALB Ingress Controller, IRSA |
-| **AI & Machine Learning** | Amazon Bedrock (Claude), Textract, Event-Driven ML Pipelines |
-| **Streaming & Messaging** | Kinesis Data Streams, SNS, SQS, WebSocket API, DLQ |
+| Domain                      | Skills                                                                          |
+| --------------------------- | ------------------------------------------------------------------------------- |
+| **Cloud Architecture**      | High Availability, Event-Driven Systems, Serverless Design, Distributed Systems |
+| **Infrastructure as Code**  | Terraform, State Management, Modular Design                                     |
+| **DevOps & CI/CD**          | GitHub Actions, CodePipeline, Containerization, OIDC                            |
+| **Security & Identity**     | IAM, Cognito, WAF, Multi-Tenant Architectures                                   |
+| **Containers & Kubernetes** | ECS, EKS, Fargate, ALB Ingress Controller, IRSA                                 |
+| **AI & Machine Learning**   | Amazon Bedrock (Claude), Textract, Event-Driven ML Pipelines                    |
+| **Streaming & Messaging**   | Kinesis Data Streams, SNS, SQS, WebSocket API, DLQ                              |
 
 ## 📄 License
 
